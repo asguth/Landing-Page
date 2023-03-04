@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,8 @@
 <body>
 
 	<header>
-		<div class="menu-icon" title="Menu">&#9776;</div>
-		<div class="logo"><a href="index.html"><img src="img/logo.png" title="Home"></a></div>
+		<div class="menu__icon" title="Menu">&#9776;</div>
+		<div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo da página inicial" title="Home"></a></div>
 	</header>
 
 	<nav>
@@ -21,9 +21,9 @@
 	</nav>
 
     <main>
-        <div class="container_1">
+        <div class="container__about">
             <img src="img/1.png" title="Foto">
-            <div class="text_1">
+            <div class="text__about">
                 <p>
                     Meu nome é Alberto Guth e tenho 27 anos. Atualmente, estou estudando análise e desenvolvimento de sistemas 
                     na faculdade Estácio de Sá. Sou apaixonado por tecnologia e estou sempre buscando aprender mais sobre as 
@@ -38,7 +38,7 @@
     </main>
 
     <section>
-        <div class="text_2">
+        <div class="text__projects">
             <h3>Projetos</h3>
             <p>Desenvolvendo soluções criativas com HTML, CSS e JS.</p>
             <div>
@@ -51,26 +51,26 @@
 
         <div class="gallery">
             <a class="gallery__item gallery__item--1" href="https://asguth.github.io/download-time/">
-                <img src="img/downloadspeed.png" class="gallery__img" alt="Image 1">
+                <img src="img/downloadspeed.png" alt="Image 1">
             </a>
             <a class="gallery__item gallery__item--2" href="https://asguth.github.io/login/">
-                <img src="img/login.png" class="gallery__img" alt="Image 2">
+                <img src="img/login.png" alt="Image 2">
             </a>
             <a class="gallery__item gallery__item--3" href="https://asguth.github.io/responsive-navbar/">
-                <img src="img/navbar.png" class="gallery__img" alt="Image 3">
+                <img src="img/navbar.png" alt="Image 3">
             </a>
             <a class="gallery__item gallery__item--4" href="https://asguth.github.io/Projeto-TecBlog-Udemy-CSS/">
-                <img src="img/tecblog.png" class="gallery__img" alt="Image 4">
+                <img src="img/tecblog.png" alt="Image 4">
             </a>
             <a class="gallery__item gallery__item--5" href="https://asguth.github.io/dark-theme/">
-                <img src="img/theme.png" class="gallery__img" alt="Image 5">
+                <img src="img/theme.png" alt="Image 5">
             </a>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-          <div class="container_email">
+        <div class="footer_wrapper">
+          <div class="footer__form">
             <form action="enviar.php" method="POST">
               <input type="text" name="nome" placeholder="Nome completo"><br>
               <input type="email" name="email" placeholder="Endereço de email"><br>
@@ -78,7 +78,7 @@
               <button type="submit">Enviar</button>
             </form>
           </div>
-          <div class="container_contact">
+          <div class="footer__contact">
             <h3>CONTATO</h3>
             <p>(21) 99867-3456</p>
             <div class="icons">
@@ -88,10 +88,10 @@
             </div>
           </div>  
         </div>
-        <div class="footer">
+        <div class="footer__copyright">
             <h3>Todos Direitos Reservados Alberto Guth™</h2>
         </div>
-      </footer>
+    </footer>
 
 </body>
 <script src="script.js"></script>

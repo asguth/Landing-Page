@@ -1,9 +1,9 @@
-const menuIcon = document.querySelector('.menu-icon');
+// Variáveis
+const menuIcon = document.querySelector('.menu__icon');
 const nav = document.querySelector('nav');
 const projeto = document.querySelector('.projeto-link');
 const contatoLink = document.querySelector('.contato-link');
-const text2 = document.querySelector('.text_2');
-
+const text2 = document.querySelector('.text__projects');
 
 // Esconde o menu quando o site inicia
 nav.style.display = 'none';
