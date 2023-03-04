@@ -7,11 +7,11 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
         $mensagem = addslashes($_POST['message']);
 
         $to = "asguth@outlook.com";
-        $subject = "Contato - Landing-Page.GITHUB";
+        $subject = "Contato - Site Exemplo";
         $body = "Nome: ".$nome. "\r\n".
                 "Email: ".$email. "\r\n".
                 "Mensagem: ".$mensagem;
-        $header = "From:albertospeed_2008@hotmail.com". "\r\n"
+        $header = "From:remetente@exemplo.com". "\r\n"  //Meu deus onde vou conseguir um Email .io
                     ."Reply-to:".$email."\e\n"
                     ."X=Mailer:PHP/".phpversion();
 
