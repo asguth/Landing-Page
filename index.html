@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +11,26 @@
 <body>
 
 	<header>
-		<div class="menu__icon" title="Menu">&#9776;</div>
+		<div class="menu__icon" title="Menu" onclick="changeIcon()">&#9776;</div>
 		<div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo da página inicial" title="Home"></a></div>
 	</header>
 
 	<nav>
 		<a href="#" class="projeto-link">Projetos</a>
 		<a href="#" class="contato-link">Contato</a>
+        <a href="#" class="theme-button" id="theme-toggle">Alterar Tema
+            <i id="icon-toggle" class="bi bi-sun"></i>
+        </a>
+        <a href="#" class="language-selector">Trocar idioma
+            <img src="https://flagicons.lipis.dev/flags/4x3/br.svg" alt="">
+        </a>
+        <a href="en/index.html" class="language-link hidden">Inglês</a>
+        <a href="es/index.html" class="language-link hidden">Espanhol</a>
 	</nav>
 
     <main>
         <div class="container__about">
-            <img src="img/1.png" title="Foto">
+            <img src="img/1.png" title="Foto" class="photo">
             <div class="text__about">
                 <p>
                     Meu nome é Alberto Guth. Atualmente, estou estudando análise e desenvolvimento de sistemas 
@@ -89,7 +97,7 @@
           </div>  
         </div>
         <div class="footer__copyright">
-            <h3>Todos Direitos Reservados Alberto Guth™</h2>
+            <h3>Todos Direitos Reservados Alberto Guth™</h3>
         </div>
     </footer>
 

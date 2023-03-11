@@ -3,13 +3,14 @@
 /*---------------------------- General Definitions ----------------------------*/
 
 :root {
-    --back-color1: 
+    --back-color1:
     background-color: #6284FF;
     background-image: linear-gradient(180deg, #6284FF 30%, #FF0000 100%);
     --color-background1: #6284ff;
     --color-background2: #FF0000;
     --font-color1: #ffff;
     --font-color2: #000000;
+    --font-color-textabout: #ffff;
     --font-size1: 1em;
     --font-size2: 1.2em;
     --font-size3: 3em;
@@ -17,11 +18,21 @@
     --nav-color: rgb(0, 0, 0,0.7);
 }
 
+[data-theme="dark"] {
+    --back-color1:
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,194,0,1) 100%);
+    --color-background1: #262626;
+    --color-background2: #2bce4e;
+    --font-color-textabout: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'roboto', sans-serif;
+    transition: background-color 0.5s ease, color 0.1s ease;
 }
 
 body {
@@ -43,7 +54,7 @@ header {
     font-size: 24px;
     cursor: pointer;
     margin-right: 10px;
-    animation: fadeIn 2s;
+    animation: fadeIn 1s;
 }
 
 .logo {
@@ -87,6 +98,23 @@ nav a:hover {
     background-color: var(--color-background1);
 }
 
+.theme-button {
+    background-color: var(--color-background1);
+}
+
+nav a img, .bi {
+    width: 1em;
+    margin-left: 0.5em;
+}
+
+.language-selector {
+    background-color: var(--color-background1)
+}
+
+.hidden {
+    display: none;
+}
+
 /*---------------------------- About ----------------------------*/
 
 main {
@@ -109,7 +137,7 @@ main {
 .text__about {
     max-width: 550px;
     font-size: var(--font-size2);
-    color: var(--font-color1);
+    color: var(--font-color-textabout);
     text-align: center;
     justify-content: right;
     padding: 60px;

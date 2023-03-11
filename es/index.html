@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alberto Guth</title>
+    <link rel="stylesheet" href="..\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+	<header>
+		<div class="menu__icon" title="Menu">&#9776;</div>
+		<div class="logo"><a href="index.html"><img src="..\img/logo.png" alt="Logo da página inicial" title="Home"></a></div>
+	</header>
+
+	<nav>
+		<a href="#" class="projeto-link">Proyectos</a>
+		<a href="#" class="contato-link">Contacto</a>
+        <a href="#" class="theme-button" id="theme-toggle">Cambiar tema
+            <i id="icon-toggle" class="bi bi-sun"></i>
+        </a>
+        <a href="#" class="language-selector">Cambiar Idioma
+            <img src="https://flagicons.lipis.dev/flags/4x3/es.svg" alt="">
+        </a>
+        <a href="..\index.html" class="language-link hidden">Portugués</a>
+        <a href="..\en/index.html" class="language-link hidden">Inglés</a>
+	</nav>
+
+    <main>
+        <div class="container__about">
+            <img src="..\img/1.png" title="Foto" class="photo">
+            <div class="text__about">
+                <p>
+                    Mi nombre es Alberto Guth. Actualmente, estoy estudiando Análisis y Desarrollo de Sistemas en la universidad Estácio de Sá. Soy un 
+                    apasionado de la tecnología y siempre busco aprender más sobre las últimas tendencias y avances en el campo. Recientemente, me he 
+                    dedicado al estudio del desarrollo web y estoy emocionado de aprender nuevas habilidades y crear proyectos desafiantes. Creo que el 
+                    desarrollo web es un área dinámica y emocionante que ofrece muchas oportunidades para la innovación y el crecimiento. Estoy emocionado 
+                    de seguir explorando todas las posibilidades que esta área tiene para ofrecer.
+                </p>
+                <button class="button"><a href="pdf/cv.pdf" download title="Download Curriculum">Download CV</a></button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="text__projects">
+            <h3>Proyectos</h3>
+            <p>Desarrollo de soluciones creativas con HTML, CSS y JS.</p>
+            <div>
+                <p>Aquí encontrarás algunos de los proyectos que he desarrollado utilizando HTML, CSS y JavaScript, a veces haciendo uso del framework 
+                    Bootstrap. Cada proyecto representa un desafío único y siempre he buscado aplicar buenas prácticas de desarrollo para crear soluciones 
+                    funcionales y estéticamente atractivas. Siéntete libre de navegar por los proyectos y conocer un poco más sobre mi trabajo.</p>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <a class="gallery__item gallery__item--1" href="https://asguth.github.io/download-time/">
+                <img src="..\img/downloadspeed.png" alt="Image 1">
+            </a>
+            <a class="gallery__item gallery__item--2" href="https://asguth.github.io/login/">
+                <img src="..\img/login.png" alt="Image 2">
+            </a>
+            <a class="gallery__item gallery__item--3" href="https://asguth.github.io/responsive-navbar/">
+                <img src="..\img/navbar.png" alt="Image 3">
+            </a>
+            <a class="gallery__item gallery__item--4" href="https://asguth.github.io/Projeto-TecBlog-Udemy-CSS/">
+                <img src="..\img/tecblog.png" alt="Image 4">
+            </a>
+            <a class="gallery__item gallery__item--5" href="https://asguth.github.io/dark-theme/">
+                <img src="..\img/theme.png" alt="Image 5">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_wrapper">
+          <div class="footer__form">
+            <form action="index.php" method="POST">
+              <input type="text" name="name" placeholder="Nombre completo"><br>
+              <input type="email" name="email" placeholder="Dirección de Email"><br>
+              <textarea name="message" placeholder="Escribe tu mensaje"></textarea><br><br>
+              <button type="submit">Entregar</button>
+            </form>
+          </div>
+          <div class="footer__contact">
+            <h3>CONTACTO</h3>
+            <p>+55 (21) 99867-3456</p>
+            <div class="icons">
+                <a href="https://wa.me/5521998673456"><i class="bi bi-whatsapp" title="Whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/albertoguth96/"><i class="bi bi-linkedin" title="Linkedin"></i></a>
+                <a href="https://github.com/asguth"><i class="bi bi-github" title="Github"></i></a>
+            </div>
+          </div>  
+        </div>
+        <div class="footer__copyright">
+            <h3>Todos los derechos reservados Alberto Guth™</h3>
+        </div>
+    </footer>
+
+</body>
+<script src="..\script.js"></script>
+</html>
