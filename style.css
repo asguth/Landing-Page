@@ -5,12 +5,12 @@
 :root {
     --back-color1:
     background-color: #6284FF;
-    background-image: linear-gradient(180deg, #6284FF 30%, #FF0000 100%);
-    --color-background1: #6284ff;
-    --color-background2: #FF0000;
+    background-image: linear-gradient(180deg, #1649ff 30%, #ffffff 100%);
+    --color-background1: #1649ff;
+    --color-background2: #ffffff;
     --font-color1: #ffff;
     --font-color2: #000000;
-    --font-color-textabout: #ffff;
+    --font-color-textabout: #000000;
     --font-size1: 1em;
     --font-size2: 1.2em;
     --font-size3: 3em;
@@ -21,9 +21,9 @@
 [data-theme="dark"] {
     --back-color1:
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,194,0,1) 100%);
-    --color-background1: #262626;
-    --color-background2: #2bce4e;
+    background: linear-gradient(180deg, rgba(24,24,24) 30%, rgb(22, 73, 255) 100%);
+    --color-background1: rgba(24,24,24);
+    --color-background2: rgba(22, 73, 255);
     --font-color-textabout: #000000;
 }
 
